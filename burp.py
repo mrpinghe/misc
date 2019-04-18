@@ -2,7 +2,7 @@
 import argparse, os, sys
 
 BURP_JAR="~/Applications/burp.jar"
-DEFAULT_CONFIG="$HOME/Documents/github/utils/default-burp-config.json"
+DEFAULT_CONFIG="$HOME/burp.config.json"
 DOWNLOAD_DIR="~/Downloads/"
 
 parser = argparse.ArgumentParser(description="Utility script to start or update Burp")
